@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PP_PAM_I.Views.FichaPersonagemView.FichaPersonagemView"
+             Title="FichaPersonagemView">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Ficha de Personagem" FontSize="24" HorizontalOptions="Center" />
+
+            <Entry Placeholder="Nome" Text="{Binding Nome}" />
+            <Entry Placeholder="Classe" Text="{Binding PersonagemClasse}" />
+            <Entry Placeholder="Nível" Keyboard="Numeric" Text="{Binding Nivel}" />
+            <Entry Placeholder="Raça" Text="{Binding Raca}" />
+
+            <Button Text="Adicionar Personagem" Command="{Binding AdicionarPersonagemCommand}" />
+
+            <CollectionView ItemsSource="{Binding Personagens}" Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10" Margin="0,5" BackgroundColor="LightGray">
+                            <Label Text="{Binding Nome}" FontAttributes="Bold" />
+                            <Label Text="{Binding Classe}" />
+                            <Label Text="{Binding Nivel}" />
+                            <Label Text="{Binding Raca}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
