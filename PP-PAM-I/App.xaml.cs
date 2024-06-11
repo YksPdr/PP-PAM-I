@@ -1,4 +1,5 @@
-﻿using PP_PAM_I.Views.FichaPersonagemView;
+﻿using PP_PAM_I.Views.DiceRoller;
+using PP_PAM_I.Views.FichaPersonagemView;
 
 namespace PP_PAM_I
 {
@@ -8,7 +9,7 @@ namespace PP_PAM_I
         {
             InitializeComponent();
 
-            MainPage = new FichaPersonagemView();
+            MainPage = new DiceRollerView();
         }
     }
 }

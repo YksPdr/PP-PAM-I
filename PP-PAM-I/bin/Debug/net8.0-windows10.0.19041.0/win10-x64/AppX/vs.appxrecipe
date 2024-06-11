@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-07T20:10:54.136</Modified>
+      <Modified>2024-06-11T20:19:51.219</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-07T19:51:23.847</Modified>
+      <Modified>2024-06-11T20:16:39.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PP-PAM-I.runtimeconfig.json">
       <PackagePath>PP-PAM-I.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-07T19:42:38.820</Modified>
+      <Modified>2024-06-11T19:57:14.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PP-PAM-I.dll">
       <PackagePath>PP-PAM-I.dll</PackagePath>
-      <Modified>2024-06-07T20:10:53.393</Modified>
+      <Modified>2024-06-11T20:19:50.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PP-PAM-I.exe</PackagePath>
-      <Modified>2024-06-07T20:10:53.435</Modified>
+      <Modified>2024-06-11T20:19:50.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -265,29 +265,45 @@
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-06-07T18:44:44.211</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_10.scale-100.png">
+      <PackagePath>dice_10.scale-100.png</PackagePath>
+      <Modified>2024-06-11T20:12:39.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_20.scale-100.png">
+      <PackagePath>dice_20.scale-100.png</PackagePath>
+      <Modified>2024-06-11T20:14:22.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_4.scale-100.png">
+      <PackagePath>dice_4.scale-100.png</PackagePath>
+      <Modified>2024-06-11T20:13:36.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_6.scale-100.png">
+      <PackagePath>dice_6.scale-100.png</PackagePath>
+      <Modified>2024-06-11T20:13:50.520</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-06-07T19:28:13.883</Modified>
+      <Modified>2024-06-11T20:14:24.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-06-07T19:28:13.892</Modified>
+      <Modified>2024-06-11T20:14:24.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-06-07T19:28:13.904</Modified>
+      <Modified>2024-06-11T20:14:24.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-06-07T19:28:13.922</Modified>
+      <Modified>2024-06-11T20:14:24.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-06-07T19:28:13.983</Modified>
+      <Modified>2024-06-11T20:14:24.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PP-PAM-I.deps.json">
       <PackagePath>PP-PAM-I.deps.json</PackagePath>
-      <Modified>2024-06-07T19:51:23.661</Modified>
+      <Modified>2024-06-11T19:59:42.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

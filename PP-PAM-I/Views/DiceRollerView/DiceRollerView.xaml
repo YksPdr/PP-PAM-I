@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PP_PAM_I.Views.DiceRoller.DiceRollerView"
+             Title="DiceRollerView">
+    <ScrollView>
+        <VerticalStackLayout Margin="20" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Rolador de Dados" HorizontalOptions="Center" FontSize="36" TextColor="Black"/>
+
+            <Label Text="0" x:Name="valorDado" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" TextColor="Black"/>
+
+            <Image x:Name="imagemDado" Source="dice_default.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" HeightRequest="150" Margin="10"/>
+
+            <Picker x:Name="ladoDado" Title="Quantidade de lados" VerticalOptions="Center" BackgroundColor="White" TextColor="Black" TitleColor="Black">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:Int32}">
+                        <x:Int32>4</x:Int32>
+                        <x:Int32>6</x:Int32>
+                        <x:Int32>10</x:Int32>
+                        <x:Int32>20</x:Int32>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="quantidadeDado" Title="Quantidade de dados" VerticalOptions="Center" BackgroundColor="White" TextColor="Black" TitleColor="Black">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:Int32}">
+                        <x:Int32>1</x:Int32>
+                        <x:Int32>2</x:Int32>
+                        <x:Int32>3</x:Int32>
+                        <x:Int32>4</x:Int32>
+                        <x:Int32>5</x:Int32>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Button BackgroundColor="#FF5722" Text="ROLAR O DADO" TextColor="White" FontSize="18" CornerRadius="10" Padding="15,10" HorizontalOptions="Center" VerticalOptions="End" Clicked="onDiceRoll"/>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

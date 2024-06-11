@@ -67,6 +67,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\DiceRollerView\DiceRollerView.xaml.cs">
+	    <DependentUpon>DiceRollerView.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Views\FichaPersonagemView\FichaPersonagemView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
