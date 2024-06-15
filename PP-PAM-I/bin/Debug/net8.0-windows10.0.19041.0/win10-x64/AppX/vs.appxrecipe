@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-11T20:19:51.219</Modified>
+      <Modified>2024-06-15T03:26:30.705</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PP-PAM-I.dll">
       <PackagePath>PP-PAM-I.dll</PackagePath>
-      <Modified>2024-06-11T20:19:50.913</Modified>
+      <Modified>2024-06-15T03:26:30.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PP-PAM-I.exe</PackagePath>
-      <Modified>2024-06-11T20:19:50.918</Modified>
+      <Modified>2024-06-15T03:26:30.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

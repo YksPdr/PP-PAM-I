@@ -9,7 +9,7 @@ namespace PP_PAM_I
         {
             InitializeComponent();
 
-            MainPage = new DiceRollerView();
+            MainPage = new AppShell();
         }
     }
 }

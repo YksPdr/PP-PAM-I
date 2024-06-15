@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PP_PAM_I.Views.DiceRoller.DiceRollerView"
-             Title="DiceRollerView">
+             Title="Rolador de Dados">
     <ScrollView>
         <VerticalStackLayout Margin="20" VerticalOptions="Center" HorizontalOptions="Center">
             <Label Text="Rolador de Dados" HorizontalOptions="Center" FontSize="36" TextColor="Black"/>

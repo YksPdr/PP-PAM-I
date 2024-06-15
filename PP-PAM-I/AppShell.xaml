@@ -3,13 +3,35 @@
     x:Class="PP_PAM_I.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewsDiceRoller = "clr-namespace:PP_PAM_I.Views.DiceRoller"
+    xmlns:viewsFichaPersonagem = "clr-namespace:PP_PAM_I.Views.FichaPersonagemView"
     xmlns:local="clr-namespace:PP_PAM_I"
     Shell.FlyoutBehavior="Disabled"
     Title="PP_PAM_I">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="{OnPlatform Android=130, iOS=200}"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                </Grid.RowDefinitions>
+                <FlexLayout Grid.Row="0" Direction="Row" AlignItems="Center" >
+                    <Frame Padding="0" CornerRadius="40" HeightRequest="80" WidthRequest="80" >
+                    </Frame>
+                    <VerticalStackLayout Padding="10,0,0,0" Spacing="0">
+                        <Label Text="App RPG Etec" FontAttributes="Bold" FontSize="Medium" />
+                        <Label Text="Disciplina PAM-II"/>
+                    </VerticalStackLayout>
+                </FlexLayout>
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Rolador de Dados" ContentTemplate="{DataTemplate viewsDiceRoller:DiceRollerView}"/>
+        <ShellContent Title="Ficha de Personagem" ContentTemplate="{DataTemplate viewsFichaPersonagem:FichaPersonagemView}"/>
+    </FlyoutItem>
+    
 </Shell>

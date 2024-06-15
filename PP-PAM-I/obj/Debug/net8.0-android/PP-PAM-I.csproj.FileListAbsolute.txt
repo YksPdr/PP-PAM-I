@@ -1067,3 +1067,7 @@ C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-android\stamp\_C
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-android\resizetizer\r\drawable\dice_10.png
+C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-android\resizetizer\r\drawable\dice_20.png
+C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-android\resizetizer\r\drawable\dice_4.png
+C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-android\resizetizer\r\drawable\dice_6.png

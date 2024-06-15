@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PP_PAM_I.Views.FichaPersonagemView.FichaPersonagemView"
-             Title="FichaPersonagemView">
+             Title="Ficha de Personagem">
     <ScrollView>
         <StackLayout Padding="20">
             <Label Text="Ficha de Personagem" FontSize="24" HorizontalOptions="Center" />
