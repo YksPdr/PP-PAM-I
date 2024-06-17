@@ -4,14 +4,34 @@
              x:Class="PP_PAM_I.Views.DiceRoller.DiceRollerView"
              Title="Rolador de Dados">
     <ScrollView>
-        <VerticalStackLayout Margin="20" VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="Rolador de Dados" HorizontalOptions="Center" FontSize="36" TextColor="Black"/>
+        <StackLayout Padding="20">
+            <Label Text="Rolador de Dados" 
+                   FontSize="24" 
+                   HorizontalOptions="Center" 
+                   Margin="0,20,0,10" />
 
-            <Label Text="0" x:Name="valorDado" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" TextColor="Black"/>
+            <Image Source="dice_default.png" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   WidthRequest="150" 
+                   HeightRequest="150" 
+                   Margin="0,10,0,20" />
 
-            <Image x:Name="imagemDado" Source="dice_default.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" HeightRequest="150" Margin="10"/>
+            <Label x:Name="valorDado" 
+                   Text="0" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   FontSize="20" 
+                   TextColor="Black" 
+                   Margin="0,10,0,20" />
 
-            <Picker x:Name="ladoDado" Title="Quantidade de lados" VerticalOptions="Center" BackgroundColor="White" TextColor="Black" TitleColor="Black">
+            <Picker x:Name="ladoDado" 
+                    Title="Quantidade de lados" 
+                    VerticalOptions="Center" 
+                    BackgroundColor="White" 
+                    TextColor="Black" 
+                    TitleColor="Black"
+                    Margin="0,10,0,0">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:Int32}">
                         <x:Int32>4</x:Int32>
@@ -22,7 +42,13 @@
                 </Picker.ItemsSource>
             </Picker>
 
-            <Picker x:Name="quantidadeDado" Title="Quantidade de dados" VerticalOptions="Center" BackgroundColor="White" TextColor="Black" TitleColor="Black">
+            <Picker x:Name="quantidadeDado" 
+                    Title="Quantidade de dados" 
+                    VerticalOptions="Center" 
+                    BackgroundColor="White" 
+                    TextColor="Black" 
+                    TitleColor="Black"
+                    Margin="0,10,0,20">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:Int32}">
                         <x:Int32>1</x:Int32>
@@ -34,8 +60,16 @@
                 </Picker.ItemsSource>
             </Picker>
 
-            <Button BackgroundColor="#FF5722" Text="ROLAR O DADO" TextColor="White" FontSize="18" CornerRadius="10" Padding="15,10" HorizontalOptions="Center" VerticalOptions="End" Clicked="onDiceRoll"/>
-        </VerticalStackLayout>
+            <Button BackgroundColor="#FF5722" 
+                    Text="ROLAR O DADO" 
+                    TextColor="White" 
+                    FontSize="18" 
+                    CornerRadius="10" 
+                    Padding="15,10" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="End" 
+                    Margin="0,20,0,0" 
+                    Clicked="onDiceRoll"/>
+        </StackLayout>
     </ScrollView>
-    
 </ContentPage>

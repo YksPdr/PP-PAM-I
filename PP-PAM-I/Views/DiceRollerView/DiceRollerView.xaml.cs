@@ -24,8 +24,6 @@ public partial class DiceRollerView : ContentPage
                 int roll = rnd.Next(1, faces + 1);
                 total += roll;
                 result.Append($"Dado {i + 1}: {roll}\n");
-
-                UpdateDiceImage(roll);
             }
 
             result.Append($"\nTotal: {total}");
@@ -35,11 +33,5 @@ public partial class DiceRollerView : ContentPage
         {
             DisplayAlert("Erro", "Por favor, selecione a quantidade de lados e a quantidade de dados.", "OK");
         }
-    }
-
-    private void UpdateDiceImage(int roll)
-    {
-        string imageName = $"dice_{roll}.png";
-        imagemDado.Source = ImageSource.FromFile(imageName);
     }
 }

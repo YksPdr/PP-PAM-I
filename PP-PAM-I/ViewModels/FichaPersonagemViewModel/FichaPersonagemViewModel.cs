@@ -2,10 +2,11 @@
 using System.Windows.Input;
 using System.ComponentModel;
 using PP_PAM_I.Models.FichaPersonagemModel;
+using PP_PAM_I.ViewModels;
 
 namespace PP_PAM_I.ViewModel
 {
-    public class FichaPersonagemViewModel : INotifyPropertyChanged
+    public class FichaPersonagemViewModel : BaseViewModel
     {
         public ObservableCollection<Personagem> Personagens { get; set; } = new ObservableCollection<Personagem>();
         public FichaPersonagemViewModel()
@@ -14,8 +15,6 @@ namespace PP_PAM_I.ViewModel
         }
         public ICommand AdicionarPersonagemCommand { get; }
 
-        
-        
         #region Propriedades
         private string nome;
         public string Nome
@@ -79,13 +78,6 @@ namespace PP_PAM_I.ViewModel
             PersonagemClasse = string.Empty;
             Nivel = 0;
             Raca = string.Empty;
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
     }

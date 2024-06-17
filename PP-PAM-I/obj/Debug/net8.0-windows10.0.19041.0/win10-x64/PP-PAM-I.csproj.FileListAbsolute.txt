@@ -176,7 +176,4 @@ C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.1904
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PP-PAM-I.sourcelink.json
-C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_4.scale-100.png
-C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_6.scale-100.png
-C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_10.scale-100.png
-C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_20.scale-100.png
+C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_default.scale-100.png

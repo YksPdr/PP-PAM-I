@@ -299,7 +299,4 @@ C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\macc
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PP-PAM-I.pdb
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PP-PAM-I.genruntimeconfig.cache
 C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\PP-PAM-I.dll
-C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_10.png
-C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_6.png
-C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_4.png
-C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_20.png
+C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\dice_default.png
