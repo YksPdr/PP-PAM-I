@@ -23,7 +23,7 @@ public partial class DiceRollerView : ContentPage
             {
                 int roll = rnd.Next(1, faces + 1);
                 total += roll;
-                result.Append($"Dado {i + 1}: {roll}\n");
+                result.Append($"R{i + 1}: {roll}\n");
             }
 
             result.Append($"\nTotal: {total}");

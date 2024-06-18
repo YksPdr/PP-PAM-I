@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-16T18:53:36.402</Modified>
+      <Modified>2024-06-18T19:01:42.644</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-16T18:53:36.203</Modified>
+      <Modified>2024-06-18T18:32:25.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PP-PAM-I.runtimeconfig.json">
       <PackagePath>PP-PAM-I.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-11T19:57:14.949</Modified>
+      <Modified>2024-06-18T18:32:25.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PP-PAM-I.dll">
       <PackagePath>PP-PAM-I.dll</PackagePath>
-      <Modified>2024-06-16T18:53:34.962</Modified>
+      <Modified>2024-06-18T19:01:41.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PP-PAM-I.exe</PackagePath>
-      <Modified>2024-06-16T18:53:35.003</Modified>
+      <Modified>2024-06-18T19:01:41.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.093</Modified>
+      <Modified>2024-06-18T18:31:50.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.107</Modified>
+      <Modified>2024-06-18T18:31:50.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.129</Modified>
+      <Modified>2024-06-18T18:31:50.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.164</Modified>
+      <Modified>2024-06-18T18:31:50.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.285</Modified>
+      <Modified>2024-06-18T18:31:50.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,187 +83,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-06-07T18:44:43.731</Modified>
+      <Modified>2024-06-18T18:31:51.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.230</Modified>
+      <Modified>2024-06-18T18:31:51.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.257</Modified>
+      <Modified>2024-06-18T18:31:51.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.276</Modified>
+      <Modified>2024-06-18T18:31:51.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.308</Modified>
+      <Modified>2024-06-18T18:31:51.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.432</Modified>
+      <Modified>2024-06-18T18:31:52.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.866</Modified>
+      <Modified>2024-06-18T18:31:51.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.873</Modified>
+      <Modified>2024-06-18T18:31:51.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.900</Modified>
+      <Modified>2024-06-18T18:31:51.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.879</Modified>
+      <Modified>2024-06-18T18:31:51.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.887</Modified>
+      <Modified>2024-06-18T18:31:51.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.818</Modified>
+      <Modified>2024-06-18T18:31:51.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.823</Modified>
+      <Modified>2024-06-18T18:31:51.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.861</Modified>
+      <Modified>2024-06-18T18:31:51.567</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.842</Modified>
+      <Modified>2024-06-18T18:31:51.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.847</Modified>
+      <Modified>2024-06-18T18:31:51.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.744</Modified>
+      <Modified>2024-06-18T18:31:51.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.751</Modified>
+      <Modified>2024-06-18T18:31:51.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.758</Modified>
+      <Modified>2024-06-18T18:31:51.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.765</Modified>
+      <Modified>2024-06-18T18:31:51.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.774</Modified>
+      <Modified>2024-06-18T18:31:51.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.783</Modified>
+      <Modified>2024-06-18T18:31:51.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.789</Modified>
+      <Modified>2024-06-18T18:31:51.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.812</Modified>
+      <Modified>2024-06-18T18:31:51.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.795</Modified>
+      <Modified>2024-06-18T18:31:51.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.800</Modified>
+      <Modified>2024-06-18T18:31:51.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.003</Modified>
+      <Modified>2024-06-18T18:31:51.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.014</Modified>
+      <Modified>2024-06-18T18:31:51.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.028</Modified>
+      <Modified>2024-06-18T18:31:51.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.047</Modified>
+      <Modified>2024-06-18T18:31:51.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.081</Modified>
+      <Modified>2024-06-18T18:31:51.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.951</Modified>
+      <Modified>2024-06-18T18:31:51.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.958</Modified>
+      <Modified>2024-06-18T18:31:51.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.967</Modified>
+      <Modified>2024-06-18T18:31:51.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.976</Modified>
+      <Modified>2024-06-18T18:31:51.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.993</Modified>
+      <Modified>2024-06-18T18:31:51.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.907</Modified>
+      <Modified>2024-06-18T18:31:51.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.914</Modified>
+      <Modified>2024-06-18T18:31:51.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.923</Modified>
+      <Modified>2024-06-18T18:31:51.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.931</Modified>
+      <Modified>2024-06-18T18:31:51.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-07T18:44:43.942</Modified>
+      <Modified>2024-06-18T18:31:51.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.091</Modified>
+      <Modified>2024-06-18T18:31:51.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.105</Modified>
+      <Modified>2024-06-18T18:31:51.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.123</Modified>
+      <Modified>2024-06-18T18:31:51.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.148</Modified>
+      <Modified>2024-06-18T18:31:51.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-06-07T18:44:44.211</Modified>
+      <Modified>2024-06-18T18:31:51.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dice_default.scale-100.png">
       <PackagePath>dice_default.scale-100.png</PackagePath>
@@ -271,27 +271,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-06-16T18:07:00.040</Modified>
+      <Modified>2024-06-18T18:31:51.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-06-16T18:07:00.050</Modified>
+      <Modified>2024-06-18T18:31:51.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-06-16T18:07:00.061</Modified>
+      <Modified>2024-06-18T18:31:51.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-06-16T18:07:00.080</Modified>
+      <Modified>2024-06-18T18:31:51.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-06-16T18:07:00.143</Modified>
+      <Modified>2024-06-18T18:31:51.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\source\repos\PP-PAM-I\PP-PAM-I\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PP-PAM-I.deps.json">
       <PackagePath>PP-PAM-I.deps.json</PackagePath>
-      <Modified>2024-06-16T18:53:36.028</Modified>
+      <Modified>2024-06-18T18:32:25.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pichau\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

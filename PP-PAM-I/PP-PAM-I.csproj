@@ -73,16 +73,17 @@
 
 	<ItemGroup>
 	  <Folder Include="Services\" />
+	  <Folder Include="Views\ListagemAventureiros\" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\DiceRollerView\DiceRollerView.xaml.cs">
+	  <Compile Update="Views\DiceRoller\DiceRollerView.xaml.cs">
 	    <DependentUpon>DiceRollerView.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\FichaPersonagemView\FichaPersonagemView.xaml">
+	  <MauiXaml Update="Views\FichaPersonagem\FichaPersonagemView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

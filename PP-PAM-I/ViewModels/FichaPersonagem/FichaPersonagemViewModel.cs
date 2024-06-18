@@ -9,14 +9,14 @@ namespace PP_PAM_I.ViewModel
     public class FichaPersonagemViewModel : BaseViewModel
     {
         public ObservableCollection<Personagem> Personagens { get; set; } = new ObservableCollection<Personagem>();
+        public ICommand AdicionarPersonagemCommand { get; }
         public FichaPersonagemViewModel()
         {
             AdicionarPersonagemCommand = new Command(AdicionarPersonagem);
         }
-        public ICommand AdicionarPersonagemCommand { get; }
 
         #region Propriedades
-        private string nome;
+        private string nome = string.Empty;
         public string Nome
         {
             get => nome;
@@ -27,7 +27,7 @@ namespace PP_PAM_I.ViewModel
             }
         }
 
-        private string personagemClasse;
+        private string personagemClasse = string.Empty;
         public string PersonagemClasse
         {
             get => personagemClasse;
@@ -49,7 +49,7 @@ namespace PP_PAM_I.ViewModel
             }
         }
 
-        private string raca;
+        private string raca = string.Empty;
         public string Raca
         {
             get => raca;

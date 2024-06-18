@@ -6,7 +6,7 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Views\FichaPersonagemView\FichaPersonagemView.xaml">
+    <MauiXaml Update="Views\FichaPersonagem\FichaPersonagemView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
