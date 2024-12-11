@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PP-PAM-I")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e5f256c3b2ee5292c89c6fbba9801f86aa8c0cb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+87fcd9e9a1bd404bbf1ad97b1c81274809c5f12f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PP-PAM-I")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PP-PAM-I")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

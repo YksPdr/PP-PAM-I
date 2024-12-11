@@ -1,6 +1,5 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
-using System.ComponentModel;
 using PP_PAM_I.Models.FichaPersonagemModel;
 using PP_PAM_I.ViewModels;
 
@@ -62,8 +61,20 @@ namespace PP_PAM_I.ViewModel
         #endregion
 
         #region Métodos
-        private void AdicionarPersonagem()
+        private async void AdicionarPersonagem()
         {
+            if (string.IsNullOrWhiteSpace(Nome) ||
+                string.IsNullOrWhiteSpace(PersonagemClasse) ||
+                string.IsNullOrWhiteSpace(Raca) ||
+                Nivel <= 0)
+            {
+                await App.Current.MainPage.DisplayAlert(
+                    "Aviso",
+                    "Todos os campos devem ser preenchidos e o nível deve ser maior que zero.",
+                    "OK");
+                return;
+            }
+
             var novoPersonagem = new Personagem
             {
                 Nome = Nome,

@@ -6,64 +6,35 @@
 
     <Grid Padding="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Label Text="Filtro de Magias"
-               FontSize="24"
-               FontAttributes="Bold"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               Grid.Row="0"
-               Margin="0,0,0,10" />
+        <Label Text="Filtro de Magias" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0" Margin="0,0,0,10" TextColor="Black"/>
 
-        <Picker Title="Nível"
-                ItemsSource="{Binding Levels}"
-                SelectedItem="{Binding SelectedLevel}"
-                Grid.Row="1"
-                Margin="0,0,0,10" />
+        <Picker Title="Nível" ItemsSource="{Binding Levels}" SelectedItem="{Binding SelectedLevel}" Grid.Row="1" Margin="0,0,0,10"/>
+        <Picker Title="Escola" ItemsSource="{Binding Schools}" SelectedItem="{Binding SelectedSchool}" Grid.Row="2" Margin="0,0,0,10"/>
 
-        <Picker Title="Escola"
-                ItemsSource="{Binding Schools}"
-                SelectedItem="{Binding SelectedSchool}"
-                Grid.Row="2"
-                Margin="0,0,0,10" />
+        <StackLayout Orientation="Horizontal" Grid.Row="3" HorizontalOptions="Center" Margin="0,0,0,10">
+            <Button Text="Filtrar Magias" Command="{Binding FilterCommand}" BackgroundColor="#FF5722" FontSize="18" TextColor="White" CornerRadius="5" WidthRequest="150" Margin="0,0,10,0"/>
+            <Button Text="Limpar Filtro" Command="{Binding ClearFilterCommand}" BackgroundColor="#FF5722" FontSize="18" TextColor="White" CornerRadius="5" WidthRequest="150"/>
+        </StackLayout>
 
-        <Button Text="Filtrar Magias"
-                Command="{Binding FilterCommand}"
-                BackgroundColor="#007AFF"
-                TextColor="White"
-                CornerRadius="5"
-                HorizontalOptions="FillAndExpand"
-                Grid.Row="3"
-                Margin="0,0,0,10" />
-
-        <CollectionView ItemsSource="{Binding Spells}"
-                        Grid.Row="4"
-                        Margin="0,10,0,0">
+        <CollectionView ItemsSource="{Binding Spells}" Grid.Row="4" Margin="0,10,0,0">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Orientation="Vertical" Padding="10">
-                        <Label Text="{Binding Name}"
-                               FontSize="18"
-                               FontAttributes="Bold"
-                               TextColor="Black" />
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding Level}"
-                                   FontSize="16"
-                                   TextColor="Gray" />
-                            <Label Text=" - "
-                                   FontSize="16"
-                                   TextColor="Gray" />
-                            <Label Text="{Binding School}"
-                                   FontSize="16"
-                                   TextColor="Gray" />
+                    <Frame Padding="0" CornerRadius="10" BackgroundColor="ForestGreen" HasShadow="True">
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <Label Text="{Binding Name}" FontSize="18" FontAttributes="Bold" TextColor="Black" BackgroundColor="Transparent"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Level}" FontSize="16" TextColor="Black" BackgroundColor="Transparent"/>
+                                <Label Text="{Binding School}" FontSize="16" TextColor="Black" BackgroundColor="Transparent"/>
+                            </StackLayout>
                         </StackLayout>
-                    </StackLayout>
+                    </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>

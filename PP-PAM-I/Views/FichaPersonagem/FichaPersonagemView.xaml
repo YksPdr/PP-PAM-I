@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PP_PAM_I.Views.FichaPersonagem.FichaPersonagemView"
              Title="Ficha de Personagem">
+
     <ScrollView>
         <Grid Padding="20" RowSpacing="10" ColumnSpacing="10">
             <Grid.RowDefinitions>
@@ -14,57 +15,29 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Label Text="Ficha de Personagem" 
-                   FontSize="24" 
-                   HorizontalOptions="Center" 
-                   Grid.Row="0" />
+            <Label Text="Ficha de Personagem" FontSize="24" HorizontalOptions="Center" Grid.Row="0"/>
 
-            <Entry Placeholder="Nome" 
-                   Text="{Binding Nome}" 
-                   Grid.Row="1" />
+            <Entry Placeholder="Nome" Text="{Binding Nome}" Grid.Row="1"/>
+            <Entry Placeholder="Classe" Text="{Binding PersonagemClasse}" Grid.Row="2"/>
+            <Entry Placeholder="Nível" Keyboard="Numeric" Text="{Binding Nivel}" Grid.Row="3"/>
+            <Entry Placeholder="Raça" Text="{Binding Raca}" Grid.Row="4"/>
 
-            <Entry Placeholder="Classe" 
-                   Text="{Binding PersonagemClasse}" 
-                   Grid.Row="2" />
+            <Button Text="Adicionar Personagem" Command="{Binding AdicionarPersonagemCommand}" Grid.Row="5" BackgroundColor="#FF5722" TextColor="White" FontSize="18" CornerRadius="10" Padding="15,10" HorizontalOptions="Center"/>
 
-            <Entry Placeholder="Nível" 
-                   Keyboard="Numeric" 
-                   Text="{Binding Nivel}" 
-                   Grid.Row="3" />
-
-            <Entry Placeholder="Raça" 
-                   Text="{Binding Raca}" 
-                   Grid.Row="4" />
-
-            <Button Text="Adicionar Personagem" 
-                    Command="{Binding AdicionarPersonagemCommand}" 
-                    Grid.Row="5" 
-                    BackgroundColor="#FF5722" 
-                    TextColor="White" 
-                    FontSize="18" 
-                    CornerRadius="10" 
-                    Padding="15,10" 
-                    HorizontalOptions="Center" />
-
-            <CollectionView ItemsSource="{Binding Personagens}" 
-                            Grid.Row="6" 
-                            Margin="0,20,0,0">
+            <CollectionView ItemsSource="{Binding Personagens}" Grid.Row="6" Margin="0,20,0,0">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame Padding="10" 
-                               Margin="0,5" 
-                               BackgroundColor="LightGray" 
-                               CornerRadius="10">
+                        <Frame Padding="10" Margin="0,5" BackgroundColor="LightGray" CornerRadius="10">
                             <StackLayout>
-                                <Label Text="{Binding Nome}" 
-                                       FontAttributes="Bold" />
-                                <Label Text="{Binding Classe}" />
-                                <Label Text="{Binding Nivel}" />
-                                <Label Text="{Binding Raca}" />
+                                <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                                <Label Text="{Binding Classe}"/>
+                                <Label Text="{Binding Nivel}"/>
+                                <Label Text="{Binding Raca}"/>
                             </StackLayout>
                         </Frame>
                     </DataTemplate>
@@ -73,3 +46,4 @@
         </Grid>
     </ScrollView>
 </ContentPage>
+    

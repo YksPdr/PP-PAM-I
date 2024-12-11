@@ -9,13 +9,15 @@ namespace PP_PAM_I.ViewModels.SpellViewModel
     {
         private readonly SpellService _spellService;
         private string _selectedLevel;
-        private string _selectedSchool;
+        private string _selectedSchool = string.Empty;
 
         public ObservableCollection<Spell> Spells { get; }
         public ObservableCollection<string> Levels { get; }
         public ObservableCollection<string> Schools { get; }
 
         public ICommand FilterCommand { get; }
+        public ICommand ClearFilterCommand { get; }
+
         public SpellViewModel()
         {
             _spellService = new SpellService();
@@ -23,7 +25,14 @@ namespace PP_PAM_I.ViewModels.SpellViewModel
             Levels = new ObservableCollection<string> { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
             Schools = new ObservableCollection<string> { "Abjuration", "Conjuration", "Divination", "Enchantment", "Evocation", "Illusion", "Necromancy", "Transmutation" };
             FilterCommand = new Command(async () => await FilterSpellsAsync());
-            LoadSpellsAsync();
+            ClearFilterCommand = new Command(async () => await ClearFiltersAsync());
+
+            InitializeAsync();
+        }
+
+        private async void InitializeAsync()
+        {
+            await LoadSpellsAsync();
         }
 
         #region Atributos/Propriedades
@@ -62,6 +71,18 @@ namespace PP_PAM_I.ViewModels.SpellViewModel
         {
             Spells.Clear();
             var spells = await _spellService.GetSpellsAsync(_selectedLevel, _selectedSchool);
+            foreach (var spell in spells)
+            {
+                Spells.Add(spell);
+            }
+        }
+
+        private async Task ClearFiltersAsync()
+        {
+            SelectedLevel = null;
+            SelectedSchool = null;
+            Spells.Clear();
+            var spells = await _spellService.GetSpellsAsync();
             foreach (var spell in spells)
             {
                 Spells.Add(spell);

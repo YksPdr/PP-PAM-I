@@ -4,29 +4,30 @@ namespace PP_PAM_I.Views.DiceRoller;
 
 public partial class DiceRollerView : ContentPage
 {
-    private Random rnd = new Random();
+    private readonly Random _rnd = new Random();
+
     public DiceRollerView()
     {
         InitializeComponent();
     }
 
-    private void onDiceRoll(object sender, EventArgs e)
+    private void OnDiceRoll(object sender, EventArgs e)
     {
         if (ladoDado.SelectedItem != null && quantidadeDado.SelectedItem != null)
         {
-            int faces = (int)ladoDado.SelectedItem;
-            int quantity = (int)quantidadeDado.SelectedItem;
+            int faces = Convert.ToInt32(ladoDado.SelectedItem);
+            int quantity = Convert.ToInt32(quantidadeDado.SelectedItem);
             int total = 0;
             StringBuilder result = new StringBuilder();
 
             for (int i = 0; i < quantity; i++)
             {
-                int roll = rnd.Next(1, faces + 1);
+                int roll = _rnd.Next(1, faces + 1);
                 total += roll;
-                result.Append($"R{i + 1}: {roll}\n");
+                result.AppendLine($"R{i + 1}: {roll}");
             }
 
-            result.Append($"\nTotal: {total}");
+            result.AppendLine($"\nTotal: {total}");
             valorDado.Text = result.ToString();
         }
         else
